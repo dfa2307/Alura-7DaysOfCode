@@ -162,27 +162,31 @@ ul > li{
     margin-bottom: 4rem;
 }
 
-.design{
+.design, .desenvolvimento{
     display: flex;
     justify-content: center;
 }
 
-.vagas-design > h4{
+.desenvolvimento{
+    margin-top: 3rem;
+}
+
+.vagas-design > h4, .vagas-desenvolvimento > h4{
     margin-bottom: 2rem;
 }
 
-.product-designer, .ux-design{
+.vagas-salarios{
     width: 720px;
     border: 1px solid var(--cor-borda);
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
 
-.product-designer > h4, span, .ux-design  > h4, span{
+.vagas-salarios> h4, span{
     padding: 1.4rem 1.3rem 1.4rem 1.3rem;
     font-weight: 500;
 }
 
-.product-designer > span{
+.vagas-salarios > span{
     color: var(--text-color);
 }
