@@ -10,13 +10,18 @@
 :root{
     --text-color: #667085;
     --second-color: #101828;
-    --text-color-vaga: rgba(142, 36, 36, 0.05);
+    --text-color-vaga: #8e24240d;
     --main-color: #8E2424;
+    --cor-borda: #EAECF0;
 }
 
 body {
     width: 100%;
     height: 100vh;
+}
+
+span{
+    display: inline-block;
 }
 
 nav > ul{
@@ -155,4 +160,29 @@ ul > li{
     justify-content: center;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.design{
+    display: flex;
+    justify-content: center;
+}
+
+.vagas-design > h4{
+    margin-bottom: 2rem;
+}
+
+.product-designer, .ux-design{
+    width: 720px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-designer > h4, span, .ux-design  > h4, span{
+    padding: 1.4rem 1.3rem 1.4rem 1.3rem;
+    font-weight: 500;
+}
+
+.product-designer > span{
+    color: var(--text-color);
 }
