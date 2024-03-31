@@ -10,6 +10,7 @@
 :root{
     --text-color: #667085;
     --second-color: #101828;
+    --text-color-vaga: rgba(142, 36, 36, 0.05);
     --main-color: #8E2424;
 }
 
@@ -118,4 +119,40 @@ ul > li{
 .metricas > div p{
     font-weight: 400;
     color: var(--text-color);
+}
+
+.vagas{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.vagas h4{
+    background-color: var(--text-color-vaga);
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 3rem;
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+    color: var(--main-color);
+}
+
+.vagas h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--second-color);
+    margin-top: 1rem;
+}
+
+.vagas p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+
+.imagem-reuniao{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
