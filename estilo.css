@@ -98,7 +98,7 @@ ul > li{
 .metricas{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px;
+    grid-template-rows: 12.5rem;
     column-gap: 2rem;
     width: 72rem;
     margin: 0 auto;
@@ -169,6 +169,7 @@ ul > li{
 
 .desenvolvimento{
     margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 .vagas-design > h4, .vagas-desenvolvimento > h4{
@@ -189,4 +190,44 @@ ul > li{
 
 .vagas-salarios > span{
     color: var(--text-color);
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.colab{
+    background-color: var(--text-color-vaga);
+    width: 76rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.colab > h4{
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.colab > p {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.avatar{
+    margin-top: 2rem; 
+}
+
+.avatar > p{
+    color: var(--text-color);
+}
+
+.avatar > h3{
+    font-weight: 500;
+}
+
+.avatar > img{
+    margin-bottom: 1rem;
 }
