@@ -13,6 +13,9 @@
     --text-color-vaga: #8e24240d;
     --main-color: #8E2424;
     --cor-borda: #EAECF0;
+    --cor-rodape: #f9fafb;
+    --cor-borda2:#D0D5DD;
+    --cor-autoral:#98A2B3;
 }
 
 body {
@@ -230,4 +233,58 @@ ul > li{
 
 .avatar > img{
     margin-bottom: 1rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-rodape);
+}
+
+.rodape h2{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--second-color);
+    margin-top: 4rem;
+}
+
+.rodape p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 2.2rem;
+}
+
+.rodape-sub{
+    text-align: center;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+form input{
+    border-radius: 0.5rem;
+    border: 1px solid var(--cor-borda2);
+    padding: 0.75rem 0.87rem 0.75rem 1rem;
+    width: 22.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+form a{
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 0.6rem;
+    margin-right: 0.5rem;
+    padding: 0.75rem 1.2rem;
+}
+
+footer p.autoral{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-autoral);
+    margin-bottom: 5rem;
 }
